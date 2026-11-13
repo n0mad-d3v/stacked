@@ -1,6 +1,6 @@
 // a class that holds a preset of
 // common route transition builder
-import 'package:flutter/material.dart';
+import 'package:material_ui/material_ui.dart';
 
 class TransitionsBuilders {
   const TransitionsBuilders._();

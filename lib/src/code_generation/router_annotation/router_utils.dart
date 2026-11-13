@@ -1,8 +1,8 @@
 import 'package:universal_io/io.dart';
 
-import 'package:flutter/cupertino.dart';
+import 'package:cupertino_ui/cupertino_ui.dart';
 import 'package:flutter/foundation.dart' show kIsWeb;
-import 'package:flutter/material.dart';
+import 'package:material_ui/material_ui.dart';
 
 // returns an error page routes with a helper message.
 PageRoute defaultUnknownRoutePage(RouteSettings settings) => MaterialPageRoute(

@@ -1,6 +1,6 @@
 @Skip('These tests do not feel reliable so we skip until we write better tests')
 
-import 'package:flutter/material.dart';
+import 'package:material_ui/material_ui.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:stacked/stacked.dart';
 

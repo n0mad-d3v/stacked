@@ -1,4 +1,4 @@
-import 'package:flutter/material.dart';
+import 'package:material_ui/material_ui.dart';
 import 'package:provider/provider.dart';
 
 class SelectorViewModelBuilder<T extends ChangeNotifier, K>
@@ -21,8 +21,8 @@ class SelectorViewModelBuilder<T extends ChangeNotifier, K>
       key: key,
       shouldRebuild: shouldRebuild,
       selector: (BuildContext context, T viewModel) => selector(viewModel),
-      builder: (BuildContext _, K value, Widget? child) =>
-          builder(_, value, child),
+      builder: (BuildContext context, K value, Widget? child) =>
+          builder(context, value, child),
       child: child,
     );
   }

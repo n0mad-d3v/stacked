@@ -1,4 +1,4 @@
-import 'package:flutter/material.dart';
+import 'package:material_ui/material_ui.dart';
 import 'package:stacked/src/router/router_service_interface.dart';
 
 mixin IndexTrackingStateHelper on ChangeNotifier {

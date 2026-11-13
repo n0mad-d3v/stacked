@@ -1,6 +1,6 @@
 import 'package:collection/collection.dart';
 import 'package:flutter/gestures.dart';
-import 'package:flutter/material.dart';
+import 'package:material_ui/material_ui.dart';
 import 'package:stacked/src/router/matcher/route_match.dart';
 import 'package:stacked/src/router/widgets/stacked_tab_view.dart';
 

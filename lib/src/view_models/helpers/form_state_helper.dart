@@ -1,4 +1,4 @@
-import 'package:flutter/material.dart';
+import 'package:material_ui/material_ui.dart';
 
 /// Provides functionality to reduce the code required in order to move user input
 /// into the [ViewModel]
